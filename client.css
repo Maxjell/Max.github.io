@@ -1,0 +1,23 @@
+.Art{
+    background-color: rgb(214, 139, 120);
+}
+.Art h1{
+    text-align: center;
+}
+.main-test{
+    display: flex;
+}
+figure{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 5px 10px 5px;
+    margin: 20px;
+    border-radius: 25px;
+}
+figure img{
+    width: 200px;
+    height: 200px;
+    border-radius: 110px;
+    padding: 10px;
+}
