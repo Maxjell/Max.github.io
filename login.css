@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-decoration: none;
+    background-image: url(cyan.jpg);
+    background-size: cover;
+}
+input,button{
+    width: 300px;
+    margin: 10px;
+    height: 5vh;
+    border: 1px solid grey;
+    transition: 0.8s;
+    border-radius: 15px;
+}
+.login-container{
+    width: 400px;
+    text-align: center;
+    height: 500px;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding-top: 2%;
+    border-radius: 100px;
+    box-shadow: 4px 0 8px 0 rgba(0,0,0,0.2);
+    background-color: rgb(7, 117, 117);
+}
+button{
+    background-color: lightblue;
+    transition: 3s;
+    color: darkcyan;
+}
+button:hover{
+    background-color: darkcyan;
+    color: lightblue;
+    border: 3px solid cyan;
+    transition: 3s;
+}
+.login-container :hover{
+    box-shadow: 8px 0 16px 0 rgba(black);
+}
+input :hover{
+    margin: 15px;
+}
+img{
+    border-radius: 100px;
+    width: 190px;
+    height: 200px;
+
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+hr{
+    width: 100%;
+}
+h2{
+    color: white;
+}
